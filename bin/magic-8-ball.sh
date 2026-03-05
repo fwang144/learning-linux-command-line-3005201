@@ -19,6 +19,7 @@ ANSWERS=(
 echo "--- The Magic 8-Ball ---"
 read -p "Ask the 8-Ball a question and press Enter: "
 echo "Shaking the 8-Ball..."
+sleep 8
 
 NUM_ANSWERS=${#ANSWERS[@]}
 RANDOM_INDEX=$(( RANDOM % NUM_ANSWERS ))
